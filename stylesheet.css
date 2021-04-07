@@ -4,16 +4,12 @@
   height:500px;
 }
 
-
-@keyframes  InsteadTransition{
-  0% {object-position:0 0;}
-  100% {object-position: 0 50px;}
-}
-
 .trans{
   object-position: 0 0;
   width:100px;
-  animation-name: InsteadTransition;
-  animation-duration: 2s;
+  transition:2s;
+}
 
+.trans:hover{
+  object-position:0 50px;
 }
