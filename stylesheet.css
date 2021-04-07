@@ -6,8 +6,8 @@
 
 
 @keyframes  InsteadTransition{
-  0% {opacity:1;}
-  100% {opacity:0;}
+  0% {position-object:0 0;}
+  100% {position-object: 0 50px;}
 }
 
 .trans{
