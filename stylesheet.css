@@ -1,0 +1,15 @@
+.back{
+  background-color: red;
+  width:500px;
+  height:500px;
+}
+
+.trans{
+  object-position: 0 0;
+  width:100px;
+  transition:2s;
+}
+
+.trans:hover{
+    object-position: 0 50px;
+}
